@@ -22,22 +22,13 @@ Once you have selected the stream, the script will start downloading the video o
 ### Example:
 
 ```python
-python youtube_video_audio_downloader.py
-
-Enter your link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-
+Enter your link: https://www.youtube.com/watch?v=your_video_id
 For Video enter 0
 For Audio enter 1: 0
-
-0. 1080p
-1. 720p
-2. 480p
-3. 360p
-
-Enter your choise: 0
-
-Downloading ---------> Never Gonna Give You Up.mp4
-
+0 - <VideoStream: itag="18" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.42001E" acodec="mp4a.40.2" progressive="True" type="video">
+1 - <VideoStream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+Enter your choise: 1
+Downloading ---------> Video Title.
 Successful
 ```
 
